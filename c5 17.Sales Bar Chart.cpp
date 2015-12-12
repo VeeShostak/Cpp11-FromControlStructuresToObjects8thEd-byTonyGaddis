@@ -1,6 +1,6 @@
 // 17. Sales Bar Chart
 
-//#include "stdafx.h"
+#include "stdafx.h" // for visual studio
 #include <iostream>
 using namespace std;
 

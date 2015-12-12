@@ -1,6 +1,6 @@
 // 19 Budget Analysis
 
-//#include "stdafx.h"
+#include "stdafx.h" // for visual studio
 #include <iostream>
 #include <vector> //vector data type
 using namespace std;

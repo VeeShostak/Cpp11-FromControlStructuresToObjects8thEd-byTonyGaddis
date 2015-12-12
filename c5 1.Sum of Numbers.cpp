@@ -1,6 +1,6 @@
 // 1. Sum of Numers
 
-//#include "stdafx.h"
+#include "stdafx.h" // for visual studio
 #include <iostream>
 using namespace std;
 

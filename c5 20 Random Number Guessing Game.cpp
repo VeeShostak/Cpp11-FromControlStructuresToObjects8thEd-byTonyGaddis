@@ -1,6 +1,6 @@
 // 20 Random Number Guessing Game
 
-//#include "stdafx.h"
+#include "stdafx.h" // for visual studio
 #include <iostream>
 #include <cstdlib> // rand and srand
 #include <ctime> // time function
