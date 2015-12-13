@@ -1,3 +1,7 @@
+These are some of the programming challenges that I have done from the textbook 
+after reading each chapter. 
+
+This is for the purpose of my development in programming.
 
 //================================================================================================
 Textbook: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis
@@ -92,5 +96,8 @@ amounts.
 Input Validation: Do not accept negative numbers for monthly rainfall figures.
 
 
+//================================================================================================
+// Chapter 8
+//================================================================================================
 
 
