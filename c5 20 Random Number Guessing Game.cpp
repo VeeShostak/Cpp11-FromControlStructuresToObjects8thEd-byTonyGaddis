@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	//range for random number generation
-	static int minValue = 1,
+	const int minValue = 1,
 		       maxValue = 20;
 
 	int rNumber, // the generated random number

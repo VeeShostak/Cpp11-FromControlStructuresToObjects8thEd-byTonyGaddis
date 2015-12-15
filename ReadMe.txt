@@ -126,7 +126,29 @@ the student failed the exam.
 
 
 //================================================================================================
-// Chapter 8
+// Chapter 8 Searching and Sorting Arrays
 //================================================================================================
+
+
+8. Search Benchmarks (CUSTOM: with insertion sort)
+Write a program that has an array of at least 20 integers. 
+It should sort the list using insertion sort and display the new list then,
+
+It should call a function that
+uses the linear search algorithm to locate one of the values. The function should keep
+a count of the number of comparisons it makes until it finds the value. Then the
+program,
+
+should call a function that uses the binary search algorithm to locate the same
+value. It should also keep count of the number of comparisons it makes. Display these
+values on the screen.
+
+
+//================================================================================================
+// Chapter 9 Pointers
+//================================================================================================
+
+
+
 
 
