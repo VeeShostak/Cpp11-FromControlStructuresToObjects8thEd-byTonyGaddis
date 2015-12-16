@@ -8,9 +8,9 @@ using namespace std;
 int main()
 {
 	double budget,   // user's budget
-		   totalExp = 0; // user's total expenses (initialized accumulator)
+		totalExp = 0; // user's total expenses (initialized accumulator)
 	int numExpenses; // number of expenses
-	
+
 	cout << "How much money did you budget for this month? $";
 	cin >> budget;
 
@@ -20,7 +20,7 @@ int main()
 	// Get expenses from the user
 	cout << "How many expenses do you have? ";
 	cin >> numExpenses;
-	cout << "Enter " << numExpenses << " expenses";
+	cout << "Enter " << numExpenses << " expenses\n";
 
 	for (int i = 0; i < numExpenses; i++)
 	{
@@ -41,6 +41,11 @@ int main()
 	else if (totalExp < budget)
 	{
 		cout << "You are under your budget by $" << (budget - totalExp) << endl;
+	}
+
+	else
+	{
+		cout << "You are equal to your budget\n";
 	}
 
 	return 0;

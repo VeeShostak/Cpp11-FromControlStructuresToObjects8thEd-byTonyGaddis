@@ -10,31 +10,27 @@ double calculateRetail(double, double);
 int main()
 {
 	double wholeSaleC,
-		   markUp,
-		   retailPrice;
+		markUp,
+		retailPrice;
 
 	cout << setprecision(2) << fixed << showpoint; // cout formatting
 
-	//user enters values to be used as function calculateRetail arguments
-	cout << "Enter your item's wholesale cost: ";
-	cin >> wholeSaleC;
-	cout << "Enter the item's markup percentage: ";
-	cin >> markUp;
-
-	// Validate input. continue only if all user values are positive
-	if (wholeSaleC < 0 || markUp < 0)
+	// validate input with do while loop. (accept only positive values)
+	do
 	{
-		cout << "Error! You have entered a negative value.\nPlease restart"
-			 << " the program and try again\n";
-	}
-	
-	else
-	{
-		retailPrice = calculateRetail(wholeSaleC, markUp);
-		cout << "The retail price of your item is: " << retailPrice << endl;
+		//user enters values to be used as function calculateRetail arguments
+		cout << "Enter your item's positive wholesale cost: ";
+		cin >> wholeSaleC;
 
-	}
-	
+		cout << "Enter the item's positive markup percentage: ";
+		cin >> markUp;
+
+	} while (wholeSaleC < 0 || markUp < 0);
+
+	//calculate and display the retail price of the item
+	retailPrice = calculateRetail(wholeSaleC, markUp);
+	cout << "The retail price of your item is: " << retailPrice << endl;
+
 	return 0;
 }
 
@@ -43,7 +39,7 @@ int main()
 double calculateRetail(double wholeSaleCost, double markUpPercent)
 {
 	double retailPrice;
-	retailPrice = (markUpPercent/100 * wholeSaleCost) + wholeSaleCost;
+	retailPrice = (markUpPercent / 100 * wholeSaleCost) + wholeSaleCost;
 	//cout << retailPrice;
 
 	return retailPrice;
