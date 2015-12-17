@@ -1,12 +1,13 @@
-These are some of the programming challenges that I have done from the textbook 
-after reading each chapter. 
-
-This is for the purpose of my development in programming.
+## Purpose
+The purpose of this repository is to document my development in programming.
+ 
+It contains my solutions to some of the programming challenges I have done 
+in the textbook after reading through each chapter.
 
 //================================================================================================
-Textbook: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis
+**_Textbook_: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis**
 
-Programming Challenges by Chapter:
+##Programming Challenges by Chapter:
 
 
 //================================================================================================
