@@ -152,7 +152,8 @@ values on the screen.
 1. Array Allocator
 Write a function that dynamically allocates an array of integers. The function should
 accept an integer argument indicating the number of elements to allocate. The function
-should return a pointer to the array.
+should return a pointer to the array. (Custom: let the user input the values for the allocated
+ints and then display the values that the user chose. Do not forget to free the memory.)
 
 
 
