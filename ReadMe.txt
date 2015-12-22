@@ -3,6 +3,8 @@ The purpose of this repository is to document my development in programming.
 It contains my solutions to some of the programming challenges I have done 
 in the textbook after reading through each chapter.
 
+IDE: All programs are compiled using Microsoft Visual Studio 2013
+
 //================================================================================================
 Textbook: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis
 
@@ -182,5 +184,60 @@ in this function.
 //================================================================================================
 // Chapter 10 Characters, C-Strings, and More About the string Class
 //================================================================================================
+
+
+1. String Length
+Write a function that returns an integer and accepts a pointer to a C-string as an argument.
+The function should count the number of characters in the string and return that
+number. Demonstrate the function in a simple program that asks the user to input a
+string, passes it to the function, and then displays the function’s return value.
+
+3. Word Counter
+Write a function that accepts a pointer to a C-string as an argument and returns the
+number of words contained in the string. For instance, if the string argument is “Four
+score and seven years ago” the function should return the number 6. Demonstrate the
+function in a program that asks the user to input a string and then passes it to the function.
+The number of words in the string should be displayed on the screen. Optional
+Exercise: Write an overloaded version of this function that accepts a string class object
+as its argument.
+
+
+
+
+
+
+5. Sentence Capitalizer
+Write a function that accepts a pointer to a C-string as an argument and capitalizes
+the first character of each sentence in the string. For instance, if the string argument
+is “ hello. my name is Joe. what is your name? ” the function should manipulate
+the string so it contains “ Hello. My name is Joe. What is your name? ”
+Demonstrate the function in a program that asks the user to input a string and then
+passes it to the function. The modified string should be displayed on the screen.
+Optional Exercise: Write an overloaded version of this function that accepts a string
+class object as its argument.
+
+
+10. replaceSubstring Function
+Write a function named replaceSubstring . The function should accept three C-string
+or string object arguments. Let’s call them string1 , string2 , and string3 . It
+should search string1 for all occurrences of string2 . When it finds an occurrence of
+string2 , it should replace it with string3 . For example, suppose the three arguments
+have the following values:
+string1 : “the dog jumped over the fence”
+string2 : “the”
+string3 : “that”
+With these three arguments, the function would return a string object with the value
+“that dog jumped over that fence.” Demonstrate the function in a complete program.
+
+
+12. Password Verifier
+Imagine you are developing a software package that requires users to enter their own
+passwords. Your software requires that users’ passwords meet the following criteria:
+• The password should be at least six characters long.
+• The password should contain at least one uppercase and at least one lowercase letter.
+• The password should have at least one digit.
+Write a program that asks for a password and then verifies that it meets the stated
+criteria. If it doesn’t, the program should display a message telling the user why.
+
 
 
