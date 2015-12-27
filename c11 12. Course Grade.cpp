@@ -34,7 +34,7 @@ int main()
 	StudentInfo *ptrStudents = nullptr;
 	ptrStudents = new StudentInfo[numStudents];
 
-	// user enters id number and test scores data for each student
+	// user enters id number, name, and test scores data for each student
 	for (int count = 0; count < numStudents; count++)
 	{
 		// make each student's tests member point to a dynamically allocated

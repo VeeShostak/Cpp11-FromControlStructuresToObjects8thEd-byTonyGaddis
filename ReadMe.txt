@@ -267,4 +267,40 @@ numbers for any test score.
 //================================================================================================
 
 
+1. File Head Program
+Write a program that asks the user for the name of a file. The program should display
+the first 10 lines of the file on the screen (the “head” of the file). If the file has fewer
+than 10 lines, the entire file should be displayed, with a message indicating the entire
+file has been displayed.
+NOTE: Using an editor, you should create a simple text file that can be used to test
+this program.
+
+
+13. Inventory Program
+Write a program that uses a structure to store the following inventory data in a file:
+Item Description
+Quantity on Hand
+Wholesale Cost
+Retail Cost
+Date Added to Inventory
+
+The program should have a menu that allows the user to perform the following tasks:
+• Add new records to the file.
+• Display any record in the file.
+• Change any record in the file.
+
+Input Validation: The program should not accept quantities, or wholesale or retail
+costs, less than 0. The program should not accept dates that the programmer determines
+are unreasonable.
+
+
+14. Inventory Screen Report
+Write a program that reads the data in the file created by the program in Programming
+Challenge 13. The program should calculate and display the following data:
+• The total wholesale value of the inventory
+• The total retail value of the inventory
+• The total quantity of all items in the inventory
+
+
+
 
