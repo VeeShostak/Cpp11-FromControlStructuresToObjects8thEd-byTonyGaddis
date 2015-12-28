@@ -276,13 +276,15 @@ NOTE: Using an editor, you should create a simple text file that can be used to 
 this program.
 
 
-13. Inventory Program
+13. Inventory Program 
 Write a program that uses a structure to store the following inventory data in a file:
 Item Description
 Quantity on Hand
 Wholesale Cost
 Retail Cost
 Date Added to Inventory
+
+Custom: Let the user enter the data for as many records as they wish first, then:
 
 The program should have a menu that allows the user to perform the following tasks:
 • Add new records to the file.
@@ -294,12 +296,10 @@ costs, less than 0. The program should not accept dates that the programmer dete
 are unreasonable.
 
 
-14. Inventory Screen Report
-Write a program that reads the data in the file created by the program in Programming
-Challenge 13. The program should calculate and display the following data:
-• The total wholesale value of the inventory
-• The total retail value of the inventory
-• The total quantity of all items in the inventory
+
+//================================================================================================
+// Chapter 13 Introduction to Classes
+//================================================================================================
 
 
 

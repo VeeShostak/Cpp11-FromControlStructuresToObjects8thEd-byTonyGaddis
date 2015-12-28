@@ -36,5 +36,8 @@ int main()
 		lines++;
 	}
 
+	// close the file
+	dataFile.close();
+
 	return 0;
 }
