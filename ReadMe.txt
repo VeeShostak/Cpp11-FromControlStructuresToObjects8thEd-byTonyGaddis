@@ -1,15 +1,17 @@
+		Purpose & Info
+
 The purpose of this repository is to document my development in programming.
  
 It contains my solutions to some of the programming challenges I have done 
 in the textbook after reading through each chapter.
 
+
 IDE: All programs are compiled using Microsoft Visual Studio 2013
 
-//================================================================================================
 Textbook: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis
 
-Programming Challenges by Chapter:
 
+		Programming Challenges by Chapter
 
 //================================================================================================
 // Chapter 5 Loops and Files
@@ -296,11 +298,65 @@ costs, less than 0. The program should not accept dates that the programmer dete
 are unreasonable.
 
 
-
 //================================================================================================
 // Chapter 13 Introduction to Classes
 //================================================================================================
 
+
+1. Date
+Design a class called Date . The class should store a date in three integers: month , day ,
+and year . There should be member functions to print the date in the following forms:
+12/25/2014
+December 25, 2014
+25 December 2014
+Demonstrate the class by writing a complete program implementing it.
+Input Validation: Do not accept values for the day greater than 31 or less than 1. Do
+not accept values for the month greater than 12 or less than 1.
+
+
+
+
+3. Car Class
+Write a class named Car that has the following member variables:
+• yearModel . An int that holds the car’s year model.
+• make . A string that holds the make of the car.
+• speed . An int that holds the car’s current speed.
+
+In addition, the class should have the following constructor and other member functions.
+• Constructor. The constructor should accept the car’s year model and make as arguments.
+These values should be assigned to the object’s yearModel and make member
+variables. The constructor should also assign 0 to the speed member variables.
+• Accessor. Appropriate accessor functions to get the values stored in an object’s
+yearModel , make , and speed member variables.
+• accelerate . The accelerate function should add 5 to the speed member variable
+each time it is called.
+• brake . The brake function should subtract 5 from the speed member variable each
+time it is called.
+Demonstrate the class in a program that creates a Car object, and then calls the
+accelerate function five times. After each call to the accelerate function, get
+the current speed of the car and display it. Then, call the brake function five times.
+After each call to the brake function, get the current speed of the car and display it.
+
+
+
+
+18. A Game of 21
+For this assignment, you will write a program that lets the user play against the computer
+in a variation of the popular blackjack card game. In this variation of the game,
+two six-sided dice are used instead of cards. The dice are rolled, and the player tries to
+beat the computer’s hidden total without going over 21.
+Here are some suggestions for the game’s design:
+• Each round of the game is performed as an iteration of a loop that repeats as long
+as the player agrees to roll the dice, and the player’s total does not exceed 21.
+• At the beginning of each round, the program will ask the users whether they want
+to roll the dice to accumulate points.
+• During each round, the program simulates the rolling of two six-sided dice. It rolls
+the dice first for the computer, and then it asks the user if he or she wants to roll.
+(Use the Die class that was demonstrated in this chapter to simulate the dice).
+• The loop keeps a running total of both the computer and the user’s points.
+• The computer’s total should remain hidden until the loop has finished.
+• After the loop has finished, the computer’s total is revealed, and the player with the
+most points without going over 21 wins.
 
 
 
