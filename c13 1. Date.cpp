@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
+#include <cstdlib>		// needed for the exit function
 
 using namespace std;
 
@@ -25,13 +26,25 @@ class Date
 // assigns a value to the month member
 void Date::setMonth(int m)
 {
-	month = m;
+	if (month > 12 || month < 1)
+		month = m;
+	else 
+	{
+		cout << "Invalid month input\n";
+		exit(EXIT_FAILURE);
+	}
 }
 
 // assigns a value to the day member
 void Date::setDay(int d)
 {
-	day = d;
+	if (day < 1 || day > 31)
+		day = d;
+	else
+	{
+		cout << "Invalid day input\n";
+		exit(EXIT_FAILURE);
+	}
 }
 
 // assigns a value to the year member
