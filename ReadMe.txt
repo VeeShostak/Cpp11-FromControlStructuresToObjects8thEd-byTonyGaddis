@@ -1,4 +1,7 @@
-		Purpose & Info
+
+//*****************************************
+// Purpose & Info:	 		  *
+//*****************************************
 
 The purpose of this repository is to document my development in programming.
  
@@ -11,7 +14,9 @@ IDE: All programs are compiled using Microsoft Visual Studio 2013
 Textbook: Starting Out with C++ from Control Structures to Objects (8th Edition) by Tony Gaddis
 
 
-		Programming Challenges by Chapter
+//*****************************************
+// Programming Challenges by Chapter:	  *
+//*****************************************
 
 //================================================================================================
 // Chapter 5 Loops and Files
@@ -304,12 +309,14 @@ are unreasonable.
 
 
 1. Date
+
 Design a class called Date . The class should store a date in three integers: month , day ,
 and year . There should be member functions to print the date in the following forms:
 12/25/2014
 December 25, 2014
 25 December 2014
 Demonstrate the class by writing a complete program implementing it.
+(Custom: store the class in the appropriate separate files and use a constructor)
 Input Validation: Do not accept values for the day greater than 31 or less than 1. Do
 not accept values for the month greater than 12 or less than 1.
 

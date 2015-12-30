@@ -1,56 +1,21 @@
-#include "stdafx.h"
-#include <iostream>
-#include <string>
+// Implementation file for the Date class.
+#include "stdafx.h"		// precompiled header needed for visual studio
+#include "Date.h"		// needed for the Date class
+#include <iostream>		// needed for cout
+#include <string>		// needed for strings
 #include <cstdlib>		// needed for the exit function
 
 using namespace std;
 
-// Date class declaration
-class Date
-{
-	private:
-		int month;
-		int day;
-		int year;
-	public:
-		void setMonth(int);
-		void setDay(int);
-		void setYear(int);
-		void format1() const;
-		void format2() const;
-		void format3() const;
-};
 
 //=== Date class function definitions ===
 
-// assigns a value to the month member
-void Date::setMonth(int m)
-{
-	if (month > 12 || month < 1)
+// constructor accepts arguments for day month and year
+Date::Date(int d, int m, int y)
+{	
 		month = m;
-	else 
-	{
-		cout << "Invalid month input\n";
-		exit(EXIT_FAILURE);
-	}
-}
-
-// assigns a value to the day member
-void Date::setDay(int d)
-{
-	if (day < 1 || day > 31)
 		day = d;
-	else
-	{
-		cout << "Invalid day input\n";
-		exit(EXIT_FAILURE);
-	}
-}
-
-// assigns a value to the year member
-void Date::setYear(int y)
-{
-	year = y;
+		year = y;
 }
 
 // displays date in format 1
@@ -154,45 +119,4 @@ void Date::format3() const
 	}
 
 	cout << day << " " << whatMonth << " " << year << endl;
-}
-
-
-// === FUNCTION MAIN ===
-int main()
-{
-	Date myEvent;	// defines an instance of the Date class
-	int evMonth;	// local variable for month
-	int evDay;		// local variable for day
-	int evYear;		// local variable for year
-
-
-	// get the date of the event from the user
-	do {
-		cout << "Enter the month number: ";
-		cin >> evMonth;
-	} while (evMonth > 12 || evMonth < 1);
-
-	do {
-		cout << "Enter the Day number: ";
-		cin >> evDay;
-	} while (evDay < 1 || evDay > 31);
-
-
-	cout << "Enter the year number: ";
-	cin >> evYear;
-
-
-	// store the month, day, and year in the myEvent object
-	myEvent.setMonth(evMonth);
-	myEvent.setDay(evDay);
-	myEvent.setYear(evYear);
-
-	// display the data in myEvent
-	cout << "\n\tThe date of your event is:\n";
-	myEvent.format1();
-	myEvent.format2();
-	myEvent.format3();
-
-
-	return 0;
 }
