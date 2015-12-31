@@ -3,7 +3,6 @@
 #include "Date.h"		// needed for the Date class
 #include <iostream>		// needed for cout
 #include <string>		// needed for strings
-#include <cstdlib>		// needed for the exit function
 
 using namespace std;
 

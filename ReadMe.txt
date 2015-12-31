@@ -309,7 +309,6 @@ are unreasonable.
 
 
 1. Date
-
 Design a class called Date . The class should store a date in three integers: month , day ,
 and year . There should be member functions to print the date in the following forms:
 12/25/2014
@@ -319,8 +318,6 @@ Demonstrate the class by writing a complete program implementing it.
 (Custom: store the class in the appropriate separate files and use a constructor)
 Input Validation: Do not accept values for the day greater than 31 or less than 1. Do
 not accept values for the month greater than 12 or less than 1.
-
-
 
 
 3. Car Class
@@ -333,18 +330,20 @@ In addition, the class should have the following constructor and other member fu
 • Constructor. The constructor should accept the car’s year model and make as arguments.
 These values should be assigned to the object’s yearModel and make member
 variables. The constructor should also assign 0 to the speed member variables.
+
 • Accessor. Appropriate accessor functions to get the values stored in an object’s
 yearModel , make , and speed member variables.
+
 • accelerate . The accelerate function should add 5 to the speed member variable
 each time it is called.
+
 • brake . The brake function should subtract 5 from the speed member variable each
 time it is called.
+
 Demonstrate the class in a program that creates a Car object, and then calls the
 accelerate function five times. After each call to the accelerate function, get
 the current speed of the car and display it. Then, call the brake function five times.
 After each call to the brake function, get the current speed of the car and display it.
-
-
 
 
 18. A Game of 21
