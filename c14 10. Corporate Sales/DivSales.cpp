@@ -1,4 +1,5 @@
 // implementation file for the DivSales class
+
 #include "stdafx.h"
 #include "DivSales.h"
 
@@ -11,6 +12,7 @@ void DivSales::salesAllQ(double allQuarters[])
 		salesQ[count] = allQuarters[count];
 		totalSalesY += allQuarters[count];
 	}
-
-	
 }
+
+// definition of the static member variable written outside the class
+double DivSales::totalSalesY = 0;
