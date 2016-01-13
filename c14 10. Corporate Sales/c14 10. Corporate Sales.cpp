@@ -6,15 +6,14 @@ using namespace std;
 
 const int NUM_DIV = 6,		// number of divisions
 		  NUM_QUART = 4;	// number of quarters
-		  
+
 int main()
 {
 	
-	double display;
 	// creates array of 6 DivSales objecs
 	DivSales allDivs[NUM_DIV];
 
-	double qSales[NUM_QUART];	// will store sales of 4 quarters for each div in this array	
+	double qSales[NUM_QUART];	// will store sales of 4 quarters for each div in this array
 
 	// ask the user to enter the sales for four quarters for each division
 	for (int division = 0; division < NUM_DIV; division++)
@@ -22,7 +21,7 @@ int main()
 		cout << "\n\tDivision " << (division + 1) << endl;
 		// reset quarter sales for each division
 		for (int reset = 0; reset < NUM_QUART; reset++)
-			qSales[reset] = 0;		
+			qSales[reset] = 0;
 
 		for (int quart = 0; quart < 4; quart++)
 		{
@@ -37,9 +36,9 @@ int main()
 		allDivs[division].salesAllQ(qSales);
 	}
 
-	
+
 	cout << "\n=========================\n" << "\tDisplaying Info\n";
-	
+
 
 	// display division sales for each quarter
 	for (int division = 0; division < NUM_DIV; division++)
@@ -54,7 +53,7 @@ int main()
 		}
 	}
 
-	
+
 
 	// display the total corporate sales for the year
 	cout << "\nTotal Corporate Sales: $" << allDivs[0].getTotalS() << endl;

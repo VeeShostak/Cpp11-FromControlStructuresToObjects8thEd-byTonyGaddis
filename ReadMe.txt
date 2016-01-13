@@ -401,6 +401,21 @@ The program should then display the total corporate sales for the year.
 Input Validation: Only accept positive values for quarterly sales figures.
 
 
+12. LandTract Class
+Make a LandTract class that is composed of two FeetInches objects, one for the
+tract’s length and one for the width. 
+
+The class should have a member function that returns the tract’s area. 
+
+Demonstrate the class in a program that asks the user to enter
+the dimensions for two tracts of land. The program should display the area of each
+tract of land and indicate whether the tracts are of equal size.
+
+
+//================================================================================================
+// Chapter 15 Inheritance, Polymorphism, and Virtual Functions
+//================================================================================================
+
 
 
 
