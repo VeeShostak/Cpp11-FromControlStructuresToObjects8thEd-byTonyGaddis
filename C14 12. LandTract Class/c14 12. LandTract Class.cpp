@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include <iostream>
-//#include "FeetInches.h"
 #include "LandTract.h"
 
 
