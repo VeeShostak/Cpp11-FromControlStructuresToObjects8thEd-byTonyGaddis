@@ -469,5 +469,24 @@ reports its area.
 //================================================================================================
 
 
+1. Date Exceptions
+Modify the Date class you wrote for Programming Challenge 1 of Chapter 13 . The
+class should implement the following exception classes:
 
+InvalidDay Throw when an invalid day (< 1 or > 31) is passed to the class.
+InvalidMonth Throw when an invalid month (< 1 or > 12) is passed to the class.
+Demonstrate the class in a driver program. 
+
+
+5. Total Template
+Write a template for a function called total. The function should keep a running
+total of values entered by the user, then return the total. The argument sent into the
+function should be the number of values the function is to read.
+Test the template in a simple driver program that sends values of various types as 
+arguments and displays the results.
+
+
+//================================================================================================
+// Chapter 17 Linked Lists
+//================================================================================================
 
